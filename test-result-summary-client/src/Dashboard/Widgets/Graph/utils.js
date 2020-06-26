@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     parseSha: function(str, sha) {
         if (! str) {
             return null;

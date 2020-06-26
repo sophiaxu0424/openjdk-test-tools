@@ -272,7 +272,7 @@ export default class TabularView extends Component {
         + '&baselineSdkResource=' + this.state.baselineSdkResource + '&baselineBuildServer=' + this.state.baselineBuildServer;
 
         window.history.replaceState(null, '', newPath);
-        window.location.reload(false);
+        //window.location.reload(false);
     }
     // Helper function to get value from benchmark entry
     handleProp (val, field) {
